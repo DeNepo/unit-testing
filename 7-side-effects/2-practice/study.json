@@ -1,0 +1,10 @@
+{
+	"study": {
+		"type": "module",
+		"environment": true,
+		"openIn": false,
+		"trace": false,
+		"ask": false,
+		"variables": false
+	}
+}

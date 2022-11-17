@@ -1,0 +1,27 @@
+{
+	"name": "?",
+	"version": "1.0.0",
+	"scripts": {
+		"format": "prettier --write ./",
+		"format:check": "prettier --check ./",
+		"lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
+		"lint:ls": "ls-lint",
+		"lint:md": "markdownlint --ignore node_modules --ignore docs --config ./.markdownlint.jsonc --fix ./ ",
+		"spell-check": "cspell  './**'",
+		"test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests "
+	},
+	"author": "DeNepo",
+	"license": "MIT",
+	"devDependencies": {
+		"@ls-lint/ls-lint": "^1.10.0",
+		"cspell": "^5.6.6",
+		"eslint": "^7.31.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsdoc": "^32.3.1",
+		"eslint-plugin-sonarjs": "^0.9.1",
+		"jest": "^26.6.3",
+		"markdownlint-cli": "^0.28.1",
+		"prettier": "^2.2.1"
+	}
+}

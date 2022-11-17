@@ -1,0 +1,15 @@
+{
+	"study": {
+		"openIn": false,
+		"flowchart": false,
+		"debug": false,
+		"trace": false,
+		"table": false
+	},
+	"highlight": {
+		"openIn": "jsTutor",
+		"ask": false,
+		"debug": true,
+		"flowchart": false
+	}
+}

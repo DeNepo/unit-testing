@@ -1,0 +1,17 @@
+{
+	"--port": 3333,
+	"study": {
+		"save": true,
+		"type": "script",
+		"run": true,
+		"debug": true,
+		"table": "values",
+		"tests": [".spec.js", ".test.js"],
+    "trace": true,
+		"variables": true,
+		"flowchart": false,
+		"ask": true,
+		"openIn": true,
+		"eslint": false
+	}
+}
